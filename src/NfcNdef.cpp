@@ -2,7 +2,7 @@
 // Copyright [2013] <COS>
 // Name        : NfcNdef.cpp
 // Author      : TriggerHuang
-// Description : Example Application of COS Project
+// Description : Example Application of NFC Project
 //============================================================================
 #define DEBUG_LEVEL 0
 #define LOG_TAG "NfcNdefSample"
