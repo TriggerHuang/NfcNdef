@@ -1,5 +1,5 @@
 //============================================================================
-// Copyright [2013] <COS>
+// Copyright [2013] <NFC>
 // Name        : NfcNdef.h
 // Author      : TriggerHuang
 // Description : Example Application of NFC Project
