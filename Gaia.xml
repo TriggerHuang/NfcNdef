@@ -10,7 +10,7 @@
     <skip-erased />
     	<uses-permission gaia:name="android.permission.NFC" />
         <application gaia:icon="@drawable/icon" gaia:label="@string/app_name" >
-        <page gaia:name=".NfcNdef" gaia:label="@string/app_name">
+        <page gaia:name=".NfcNdef" gaia:label="@string/app_name" gaia:launchMode="singleTask">
             <demand-filter>
                 <action gaia:name="android.intent.action.MAIN" />
                 <category gaia:name="android.intent.category.LAUNCHER" />

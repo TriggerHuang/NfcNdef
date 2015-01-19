@@ -64,10 +64,17 @@ class NfcNdef: public gaia::core::Page {
 
   protected:
     virtual void onInit(gaia::core::Persistence* const p);
-    virtual void onTear();
-    //virtual void onNewDemand(gaia::core::Demand* const demand);
-    virtual void onResume();
     virtual void onRestart();
+    virtual void onStart();
+    virtual void onPreResume();
+    virtual void onResume();
+    virtual void onPostResume();
+    virtual void onPause();
+    virtual void onStop();
+    virtual void onTear();
+    virtual void onNewDemand(gaia::core::Demand* const demand);;
+
+
 
   public:
     void resolveDemand(const gaia::core::Demand& demand);
